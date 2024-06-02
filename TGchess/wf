@@ -1,0 +1,15 @@
+white_stuff = [0]*16
+for i in range(8):
+    white_stuff[i] = Pawn([1, i], 1)
+
+white_stuff[8] = Rook([0,0], 1)
+white_stuff[9] = Rook([0,7], 1)
+white_stuff[10] = Knight([0,1], 1)
+white_stuff[11] = Knight([0,6], 1)
+white_stuff[12] = Bishop([0,2], 1)
+white_stuff[13] = Bishop([0,5], 1)
+white_stuff[14] = Queen([0,3], 1)
+white_stuff[15] = King([0,4], 1)
+
+game = Board(black_stuff, white_stuff)
+game.build()"""

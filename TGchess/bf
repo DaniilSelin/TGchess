@@ -1,0 +1,12 @@
+black_stuff = [0]*16
+for i in range(8):
+    black_stuff[i] = Pawn([6, i], -1)
+
+black_stuff[8] = Rook([7, 0], -1)
+black_stuff[9] = Rook([7, 7], -1)
+black_stuff[10] = Knight([7,1], -1)
+black_stuff[11] = Knight([7,6], -1)
+black_stuff[12] = Bishop([7,2], -1)
+black_stuff[13] = Bishop([7,5], -1)
+black_stuff[14] = Queen([7,3], -1)
+black_stuff[15] = King([7,4], -1)
