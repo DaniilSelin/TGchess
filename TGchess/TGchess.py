@@ -336,7 +336,7 @@ async def button(update: Updater, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 
-TOKEN = "5863452591:AAFsAS4rN_RZ-exh0mX7C1-PHWCEB-YZd68"
+TOKEN = ""
 # создание экземпляра бота через `ApplicationBuilder`
 application = ApplicationBuilder().token(TOKEN).build()
 
